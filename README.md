@@ -3,7 +3,7 @@
 ## Overview
 this is a C# console application that generates payroll slips and salary information for a small company.
 
-The idea and general guidelines for this project is from the last section of the book "Learn C# in one day and learn it well" by Jamie Chan.
+The idea and general guidelines for this project is from the last section of the book *Learn C# in one day and learn it well* by Jamie Chan.
 
 ## Company Payroll requirements - Staff, Admin, Manager
 The company contains 3 types of staff members. Ordinary staff members, Managers, and Administrators. All staff members have their names in the payroll system and are paid hourly wages. 
