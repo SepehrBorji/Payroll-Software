@@ -1,7 +1,7 @@
 class Staff 
 {
     // FIELDS AND PROPERTIES
-    private decimal hourlyRate;
+    protected decimal hourlyRate;
 
     private int _hoursWorked;
     public int HoursWorked 

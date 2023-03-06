@@ -18,7 +18,7 @@ To reflect these requirements in the program, there are 3 classes to represent s
 
 [screenshot showing inheritance]
 
-For example, all staff members have an hourly rate, but the value for this hourly rate depends on what kind of staff member is instantiated. To implement this, all staff members share the same "hourlyRate" field but the constructor of the class is responsible for initializing the field with the right value.
+Since all staff members have an hourly rate, but the value for this hourly rate depends on what kind of staff member is instantiated, all staff members share the same "hourlyRate" field and the constructor of the class is responsible for initializing the field with the right value. Furthermore, since the child classes are accessing the field "hourlyRate" declared in a parent class, the field has the "protected" access modifier.
 
 [insert screenshot of constructors]
 
