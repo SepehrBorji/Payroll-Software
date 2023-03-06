@@ -50,4 +50,4 @@ The program needs to be able to generate and send out pay cheques, and it is the
 ## Running the Program
 Although C#10 and .NET 6 remove the need for an explicitly defined Main() method, I still added one just to keep things clean and organized (at least to me). The Main() method will be responsible for taking user input for the pay month, pay year, hours worked, etc. to generate the pay cheque information. The method takes input using a while loop so it will repeatedly prompt the user until valid values are given.
 
-![Looping code screenshot](images/while%20loop%20input.PNG)
+![Looping code screenshot](Images/while%20loop%20input.PNG)
