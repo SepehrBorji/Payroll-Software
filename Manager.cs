@@ -2,7 +2,7 @@ class Manager : Staff
 {
     // FIELDS
 
-    public const int allowance = 1000;
+    public int allowance = 0;
 
     // CONSTRUCTOR
     public Manager(string name) : base(name)
@@ -18,6 +18,7 @@ class Manager : Staff
         base.CalculatePay();
         if (HoursWorked > 160) 
         {
+            allowance = 1000;
             TotalPay += allowance;
         }
     }

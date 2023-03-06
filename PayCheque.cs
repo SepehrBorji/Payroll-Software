@@ -35,22 +35,22 @@ class PayCheque
                 sw.WriteLine("==========================================");
                 sw.WriteLine("Hours Worked: " + staffMember.HoursWorked);
                 sw.WriteLine();
-                sw.WriteLine("Basic Pay: " + staffMember.BasicPay);
+                sw.WriteLine("Basic Pay: $" + staffMember.BasicPay);
                 
                 if (staffMember.GetType() == typeof(Manager)) 
                 {
-                    sw.WriteLine("Allowance: " + Manager.allowance);
+                    sw.WriteLine("Allowance: $" + ((Manager)staffMember).allowance);
                 }
                 else if (staffMember.GetType() == typeof(Admin)) 
                 {
-                    sw.WriteLine("Overtime: " + ((Admin)staffMember).Overtime);
+                    sw.WriteLine("Overtime: $" + ((Admin)staffMember).Overtime);
                 }
                 else 
                 {
                     sw.WriteLine();
                 }
                 sw.WriteLine("\n==========================================");
-                sw.WriteLine("Total Pay: " + staffMember.TotalPay);
+                sw.WriteLine("Total Pay: $" + staffMember.TotalPay);
                 sw.WriteLine("==========================================");
 
                 sw.Close();   

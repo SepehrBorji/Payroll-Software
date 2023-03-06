@@ -1,6 +1,6 @@
 class FileReader 
 {
-    public List<Staff> ReadFile() 
+    public List<Staff>? ReadFile() 
     {
         List<Staff> myStaff = new List<Staff>();
         string[] result = new string[2];
