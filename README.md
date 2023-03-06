@@ -23,7 +23,7 @@ Since all staff members have an hourly rate, but the value for this hourly rate 
 [insert screenshot of constructors]
 
 ## Gathering Staff Information - FileReader class 
-The company could have any number of staff members and this number can change quickly. Instead of hardcoding the information of each staff member, it's a much better idea to have the names and staff positions of each staff member in a text file. The FileReader class will read this text file to gather the staff information for the rest of the program to use.
+The company could have any number of staff members and this number can change quickly. Instead of hardcoding the information of each staff member, it's a much better idea to have the names and staff positions of each staff member in a text file. The FileReader class will read this text file to gather the staff information for the rest of the program to use. This information will be returned as a list of the staff members in the company.
 
 [Screenshot of FileReader Class]
 
@@ -32,7 +32,7 @@ The data input text file is "Staff.txt" and has the following format:
 [screenshot of staff.txt]
 
 ## Generating the Pay Cheque - PayCheque class
-The program needs to be able to generate and send out pay cheques, and it is the job of the PayCheque class to generate the pay cheque of every staff member in the form of a .txt file
+The program needs to be able to generate and send out pay cheques, and it is the job of the PayCheque class to generate the pay cheque of every staff member in the form of a .txt file. For example, If there is a staff member named Joel, his pay cheque will be contained in Joel.txt.
 
 ## Running the Program
 Although C#10 and .NET 6 remove the need for an explicitly defined Main() method, I still added one just to keep things clean and organized (at least to me). 
