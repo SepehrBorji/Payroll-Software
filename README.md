@@ -19,7 +19,7 @@ To reflect these requirements in the program, there are 3 classes to represent s
 ![screenshot showing declaration of staff class](Images/Staff%20signature.PNG)
 ![screenshot showing declaration of Admin class](Images/Admin%20signature.PNG)
 
-![screenshot showing declaration of Manager class](Images/Manager%20signature.PNG)
+![screenshot showing declaration of Manager class](Images/Manager%20Signature.PNG)
 
 
 Since all staff members have an hourly rate, but the value for this hourly rate depends on what kind of staff member is instantiated, all staff members share the same "hourlyRate" field and the constructor of the class is responsible for initializing the field with the right value. 
