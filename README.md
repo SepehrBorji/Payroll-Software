@@ -34,5 +34,9 @@ The data input text file is "Staff.txt" and has the following format:
 ## Generating the Pay Cheque - PayCheque class
 The program needs to be able to generate and send out pay cheques, and it is the job of the PayCheque class to generate the pay cheque of every staff member in the form of a .txt file. For example, If there is a staff member named Joel, his pay cheque will be contained in Joel.txt.
 
+[Image of a pay cheque]
+
 ## Running the Program
-Although C#10 and .NET 6 remove the need for an explicitly defined Main() method, I still added one just to keep things clean and organized (at least to me). 
+Although C#10 and .NET 6 remove the need for an explicitly defined Main() method, I still added one just to keep things clean and organized (at least to me). The Main() method will be responsible for taking user input for the pay month, pay year, hours worked, etc. to generate the pay cheque information. The method takes input using a while loop so it will repeatedly prompt the user until valid values are given.
+
+[show looping code]

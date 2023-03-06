@@ -26,7 +26,7 @@ class PayCheque
 
         foreach (Staff staffMember in myStaff) 
         {
-            path = staffMember.NameOfStaff + ".txt";
+            path = Environment.CurrentDirectory + Path.DirectorySeparatorChar + "Pay Cheques" + Path.DirectorySeparatorChar + staffMember.NameOfStaff + ".txt";
 
             using (StreamWriter sw = new StreamWriter(path)) 
             {
