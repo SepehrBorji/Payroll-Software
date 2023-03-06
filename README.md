@@ -18,7 +18,6 @@ To reflect these requirements in the program, there are 3 classes to represent s
 
 ![screenshot showing declaration of staff class](Images/Staff%20signature.PNG)
 ![screenshot showing declaration of Admin class](Images/Admin%20signature.PNG)
-
 ![screenshot showing declaration of Manager class](Images/Manager%20Signature.PNG)
 
 
